@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', serif;
+  font-family: 'Open Sans', sans-serif;
   padding-top: 54px;
   color: #868e96;
 }
@@ -17,15 +17,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   color: #343a40;
 }
 
-
+/* 
 h1, h2{
   text-transform: uppercase;
-}
+} */
 
 h1 {
   font-size: 6rem;
@@ -37,9 +37,9 @@ h2 {
 }
 
 .subheading {
-  text-transform: uppercase;
+  /* margin-left: 20px; */
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.35rem;
 }
 
@@ -48,7 +48,7 @@ h2 {
 }
 
 .list-social-icons a:hover {
-  color: #BD5D38;
+  color: #06768d;
 }
 
 .list-social-icons a .fa-lg {
@@ -60,12 +60,12 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #06768d;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 @media (min-width: 992px) {
@@ -87,7 +87,9 @@ h2 {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border-radius:10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.4); 
+    margin-bottom:  3rem;
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -135,21 +137,31 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #06768d !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #003747 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #06768d;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #06768d;
 }
 
 img {
   max-width:80%;
+}
+
+#intro{
+  margin-left: 1rem;
+}
+#contact{
+  margin-left: 1rem;
+} 
+.lastname{
+  color: #06768d;
 }
